@@ -24,7 +24,7 @@ favicon:
 # 用户头像与昵称
 avatar:
   author_photo: /images/avatar.png
-  author_nickname: Oranges
+  author_nickname: tl_Yang
   path: /
 
 # Google 分析
@@ -83,17 +83,17 @@ navbar:
     key: archives
   -
     name: Categories
-    enable: false
+    enable: true
     path: /categories/
     key: categories
   -
     name: Tags
-    enable: true
+    enable: false
     path: /tags/
     key: tags
   -
     name: Friends
-    enable: true
+    enable: false
     path: /friends/
     key: friends
   -
@@ -136,42 +136,42 @@ footer:
       name: github
       icon: github
       path: https://github.com/zchengsite/hexo-theme-oranges
-    -
-      name: email
-      icon: envelope
-      path: 
-    -
-      name: facebook
-      icon: facebooksquare
-      path:
-    -
-      name: twitter
-      icon: twitter
-      path:
-    -
-      name: wechat
-      icon: wechat
-      path:
-    -
-      name: weibo
-      icon: weibo
-      path:
-    -
+    # -
+    #   name: email
+    #   icon: envelope
+    #   path: 
+    # -
+    #   name: facebook
+    #   icon: facebooksquare
+    #   path:
+    # -
+    #   name: twitter
+    #   icon: twitter
+    #   path:
+    # -
+    #   name: wechat
+    #   icon: wechat
+    #   path:
+    # -
+    #   name: weibo
+    #   icon: weibo
+    #   path:
+    # -
       # rss需安装 hexo-generator-feed 插件
       # 具体参照https://github.com/hexojs/hexo-generator-feed
-      name: rss
-      icon: rss
-      path: /atom.xml
+      # name: rss
+      # icon: rss
+      # path: /atom.xml
 
   more:
-    -
-      name: Copyright © Oranges 2021
-      path: https://github.com/zchengsite/hexo-theme-oranges
+    # -
+    #   name: Copyright © Oranges 2021
+    #   path: https://github.com/zchengsite/hexo-theme-oranges
     -
       name: Theme by Oranges | Powered by Hexo
       path: https://github.com/zchengsite/hexo-theme-oranges
 
 # 文章搜索
 search:
-  enable: true
+  enable: false
   placeholder: 
